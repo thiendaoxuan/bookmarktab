@@ -46,5 +46,5 @@ MIT
 
 ---
 
-For detailed developer documentation, see [CLAUDE.md](./CLAUDE.md)
+
 
