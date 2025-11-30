@@ -6,8 +6,6 @@ A Chrome extension that replaces your new tab page with an organized bookmark vi
 
 ![BookmarkTab Demo](image_demo.png)
 
-*Organize your bookmarks with nested folders, dark mode, and a clean interface*
-
 
 ## Features
 
@@ -16,7 +14,6 @@ A Chrome extension that replaces your new tab page with an organized bookmark vi
     - Loose bookmarks in the "Bookmarks Bar" are grouped together.
     - "Other Bookmarks" are shown in a separate group, but only if they contain items.
 - **Dark Mode**: Automatic dark mode support based on system preference.
-- **Performance**: Fast loading with optimized rendering.
 
 ## Installation
 
@@ -42,8 +39,6 @@ npm run build  # Build for production
 ## Tech Stack
 
 - React + Vite
-- Chrome Extension APIs
-- CSS Variables for theming
 
 ## Privacy
 
