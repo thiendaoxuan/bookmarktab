@@ -11,8 +11,12 @@ A Chrome extension that replaces your new tab page with an organized bookmark vi
 
 ## Features
 
-- Grid layout for bookmark folders
-- Dark mode support
+- **Modern Bookmark Layout**:
+    - Top-level folders from the "Bookmarks Bar" are displayed as distinct groups.
+    - Loose bookmarks in the "Bookmarks Bar" are grouped together.
+    - "Other Bookmarks" are shown in a separate group, but only if they contain items.
+- **Dark Mode**: Automatic dark mode support based on system preference.
+- **Performance**: Fast loading with optimized rendering.
 
 ## Installation
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { flattenBookmarks } from '../utils/bookmarkUtils';
 
 const BookmarkNode = ({ node }) => {
     const [isOpen, setIsOpen] = useState(false); // Default closed for inner folders
@@ -59,10 +60,7 @@ const BookmarkTree = ({ bookmarks }) => {
         return <div className="loading">Loading bookmarks...</div>;
     }
 
-    // Find the root node (usually id '0')
-    const rootNode = bookmarks.find(b => b.id === '0') || bookmarks[0];
-    // Top-level items are groups (e.g., Bookmarks Bar, Other Bookmarks)
-    const groups = rootNode?.children || [];
+    const groups = flattenBookmarks(bookmarks);
 
     return (
         <div className="bookmark-groups-container">
