@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main bookmark shape - purple/blue gradient -->
+  <defs>
+    <linearGradient id="bookmarkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4F46E5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bookmark ribbon shape -->
+  <path d="M36 20C36 15.5817 39.5817 12 44 12H84C88.4183 12 92 15.5817 92 20V108L64 88L36 108V20Z" fill="url(#bookmarkGradient)"/>
+  
+  <!-- Inner highlight/detail -->
+  <path d="M44 20C44 18.8954 44.8954 18 46 18H82C83.1046 18 84 18.8954 84 20V26C84 27.1046 83.1046 28 82 28H46C44.8954 28 44 27.1046 44 26V20Z" fill="white" opacity="0.3"/>
+</svg>

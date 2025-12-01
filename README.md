@@ -4,7 +4,7 @@ A Chrome extension that replaces your new tab page with an organized bookmark vi
 
 ## Demo
 
-![BookmarkTab Demo](image_demo.png)
+![BookmarkTab Demo](public/demo.png)
 
 
 ## Features
