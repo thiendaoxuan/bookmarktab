@@ -27,14 +27,11 @@ const getMockBookmarks = () => {
                     children: [
                         { id: '101', title: 'Google', url: 'https://google.com' },
                         { id: '102', title: 'GitHub', url: 'https://github.com' },
-                        { id: '103', title: 'Gmail', url: 'https://mail.google.com' },
                         {
                             id: '104',
                             title: 'Development',
                             children: [
                                 { id: '1041', title: 'Stack Overflow', url: 'https://stackoverflow.com' },
-                                { id: '1042', title: 'MDN Web Docs', url: 'https://developer.mozilla.org' },
-                                { id: '1043', title: 'React', url: 'https://reactjs.org' },
                                 { id: '1044', title: 'Vite', url: 'https://vitejs.dev' },
                                 {
                                     id: '1045',
@@ -133,23 +130,6 @@ const getMockBookmarks = () => {
                                                 { id: '202433', title: 'Polygon', url: 'https://polygon.com' }
                                             ]
                                         }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            id: '203',
-                            title: 'Shopping',
-                            children: [
-                                { id: '2031', title: 'Amazon', url: 'https://amazon.com' },
-                                { id: '2032', title: 'eBay', url: 'https://ebay.com' },
-                                {
-                                    id: '2033',
-                                    title: 'Tech',
-                                    children: [
-                                        { id: '20331', title: 'Newegg', url: 'https://newegg.com' },
-                                        { id: '20332', title: 'Best Buy', url: 'https://bestbuy.com' },
-                                        { id: '20333', title: 'B&H Photo', url: 'https://bhphotovideo.com' }
                                     ]
                                 }
                             ]

@@ -1,19 +1,19 @@
 # BookmarkStart
 
-A Chrome extension that replaces your new tab page with an organized bookmark view.
+Replace your new tab with organized bookmarks. Clean layout, dark mode, instant access. Simple and privacy-focused.## Demo
 
-## Demo
+![BookmarkStart Dark](public/demo_dark.png)
 
-![BookmarkStart Demo](public/demo.png)
 
 
 ## Features
 
-- **Modern Bookmark Layout**:
+- **Organized Bookmark Layout**:
     - Top-level folders from the "Bookmarks Bar" are displayed as distinct groups.
-    - Loose bookmarks in the "Bookmarks Bar" are grouped together.
-    - "Other Bookmarks" are shown in a separate group, but only if they contain items.
-- **Dark Mode**: Automatic dark mode support based on system preference.
+- **Customizable**: 
+    - Dark/Light mode
+    - Compact mode
+    - Alignment: Left/Right/Center
 
 ## Installation
 
@@ -36,17 +36,9 @@ npm run dev    # Start development server
 npm run build  # Build for production
 ```
 
-## Tech Stack
-
-- React + Vite
-
 ## Privacy
 
 BookmarkStart does not collect or transmit any data. All bookmark information stays on your device.
-
-## License
-
-MIT
 
 ---
 
