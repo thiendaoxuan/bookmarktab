@@ -1,6 +1,8 @@
 # BookmarkStart
 
-Replace your new tab with organized bookmarks. Clean layout, dark mode, instant access. Simple and privacy-focused.## Demo
+Replace your new tab with organized bookmarks. Clean layout, dark mode, instant access. Simple and privacy-focused.
+
+## Demo
 
 ![BookmarkStart Dark](public/demo_dark.png)
 
