@@ -25,7 +25,7 @@ function AppContent() {
       <header className="app-header">
         <div className="header-title">
           <img src="/icon.svg" alt="Logo" className="app-logo" />
-          <h1>BookmarkTab</h1>
+          <h1>BookmarkStart</h1>
         </div>
         <div className="header-actions">
           <AddBookmark />

@@ -1,10 +1,10 @@
-# BookmarkTab
+# BookmarkStart
 
 A Chrome extension that replaces your new tab page with an organized bookmark view.
 
 ## Demo
 
-![BookmarkTab Demo](public/demo.png)
+![BookmarkStart Demo](public/demo.png)
 
 
 ## Features
@@ -21,8 +21,8 @@ A Chrome extension that replaces your new tab page with an organized bookmark vi
 Coming soon.
 
 ### Install from source
-1. Go to the [Releases](https://github.com/thiendaoxuan/bookmarktab/releases) page.
-2. Download the `bookmarktab-vX.X.X.zip` file from the latest release.
+1. Go to the [Releases](https://github.com/thiendaoxuan/BookmarkStart/releases) page.
+2. Download the `bookmarkstart-vX.X.X.zip` file from the latest release.
 3. Extract the downloaded zip file.
 4. Open Chrome and go to `chrome://extensions/`, replace "chrome" with "edge", "brave", etc. depends on your browser.
 5. Enable "Developer mode" in the top right corner.
@@ -42,7 +42,7 @@ npm run build  # Build for production
 
 ## Privacy
 
-BookmarkTab does not collect or transmit any data. All bookmark information stays on your device.
+BookmarkStart does not collect or transmit any data. All bookmark information stays on your device.
 
 ## License
 

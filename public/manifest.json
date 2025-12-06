@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "BookmarkTab",
+    "name": "BookmarkStart",
     "version": "0.2.1",
     "description": "Display all bookmarks in your new tab for easy access",
     "chrome_url_overrides": {
